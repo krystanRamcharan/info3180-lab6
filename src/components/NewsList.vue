@@ -1,6 +1,8 @@
 <template>
 	<ul class="news__list">
-		<li v-for="article in articles" class="news__item">{{article.title}}</li
+		<li v-for="article in articles" class="news__item">{{article.title}}
+		                                                   {{article.description
+		                                                   {{article.urlToImage}}</li
 	</ul>
 </template>
 
